@@ -1,9 +1,10 @@
+const config = require('config');
 const Joi = require('joi');
 Joi.ObjectId = require('joi-objectid')(Joi);
 const mongoose = require('mongoose');
 const startUpDebugger = require('debug')('app:startup');
 const dataBaseDebugger = require('debug')('app:dataB');
-const config = require('config');
+//const config = require('config');
 const morgan = require('morgan');
 const helmet = require('helmet');
 const logger = require('./middleware/logger');
@@ -18,6 +19,11 @@ const express = require('express');
 const { response } = require('express');
 
 const app = express();
+
+if (!config.get('jwtPrivateKey')) {
+    console.error('FATAL ERROR: jwtPrivateKey is not defined....');
+    process.exit(1);
+}
 
 mongoose.connect('mongodb://localhost/vidly')
     .then(() => console.log('DB connections established.....'))
@@ -93,3 +99,15 @@ app.use(function(req, res, next) {
 const port = process.env.port || 3000;
 
 app.listen(port, () => console.log(`Listening on port ...... ${port}`));
+
+
+// git init
+// git add .
+// git commit -m "first message"
+// git branch -M master
+// git remote add origin http:// address
+// git push -u origin master
+
+// git branch (branch name)
+// git checkout -b (branch name)
+// git checkout (branch name)
