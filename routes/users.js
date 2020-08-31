@@ -36,7 +36,7 @@ router.post('/', async(req, res) => {
         // }); 
 
         // We can equally use the pick method in _ to select specific properties to send to user
-        const token = jwt.sign({ _id: user._id }, config.get('jwtPrivateKey'));
+        const token = user.generateAuthKey();
         res.header('x-auth-token', token).send(_.pick(user, ['_id', 'name', 'email']));
 
     } catch (err) {
