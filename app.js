@@ -86,14 +86,14 @@ app.use('/api/auth', auth);
 // const id = new mongoose.Types.ObjectId()
 // console.log(id.getTimestamp());
 
-app.use(logger);
+//app.use(logger);
 
 // creating custom middleware
 
-app.use(function(req, res, next) {
-    console.log('Authenticating......');
-    next();
-});
+// app.use(function(req, res, next) {
+//     console.log('Authenticating......');
+//     next();
+// });
 
 // Environment - Port
 const port = process.env.port || 3000;

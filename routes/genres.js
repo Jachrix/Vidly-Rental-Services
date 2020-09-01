@@ -1,3 +1,4 @@
+const auth = require('../middleware/auth');
 //const Joi = require('joi');
 const { Genre, validate } = require('../models/genre');
 const mongoose = require('mongoose');
@@ -16,7 +17,7 @@ routerr.get('/:id', async(req, res) => {
     res.send(genre);
 })
 
-routerr.post('/', async(req, res) => {
+routerr.post('/', auth, async(req, res) => {
 
     //  const result = validateGenre(req.body);
     const { error } = validate(req.body);
@@ -28,7 +29,7 @@ routerr.post('/', async(req, res) => {
 
 })
 
-routerr.put('/:id', async(req, res) => {
+routerr.put('/:id', auth, async(req, res) => {
 
     const { error } = validate(req.body);
     if (error) return res.status(404).send(error.details[0].message)
@@ -42,7 +43,7 @@ routerr.put('/:id', async(req, res) => {
     res.send(genre);
 });
 
-routerr.delete('/:id', async(req, res) => {
+routerr.delete('/:id', auth, async(req, res) => {
     // look up the course
     const genre = await Genre.findByIdAndRemove(req.params.id);
     //const genre = genres.find(c => c.id === parseInt(req.params.id));
