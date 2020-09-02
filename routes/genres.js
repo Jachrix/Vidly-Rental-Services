@@ -7,8 +7,13 @@ const express = require('express');
 const routerr = express.Router();
 
 routerr.get('/', async(req, res) => {
-    const genre = await Genre.find().sort('name');
-    res.send(genre);
+    try {
+        const genre = await Genre.find().sort('name');
+        res.send(genre);
+    } catch (ex) {
+        res.status(500).send('Something Failed....');
+    }
+
 });
 
 routerr.get('/:id', async(req, res) => {
