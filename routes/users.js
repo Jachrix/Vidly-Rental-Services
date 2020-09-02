@@ -1,3 +1,4 @@
+const auth = require('../middleware/auth');
 const config = require('config');
 const jwt = require('jsonwebtoken');
 const _ = require('lodash');
@@ -7,10 +8,10 @@ const mongoose = require('mongoose');
 const express = require('express');
 const router = express.Router();
 
-// router.get('/', async(req, res) => {
-//     const rentals = await Rental.find().sort('-dateOut');
-//     res.send(rentals);
-// });
+router.get('/me', auth, async(req, res) => {
+    const user = await User.findById(req.user._id).select('-password');
+    res.send(user);
+});
 
 router.post('/', async(req, res) => {
     const { error } = validate(req.body);
