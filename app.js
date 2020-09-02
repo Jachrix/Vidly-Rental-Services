@@ -1,3 +1,4 @@
+const error = require('./middleware/error');
 const config = require('config');
 const Joi = require('joi');
 Joi.ObjectId = require('joi-objectid')(Joi);
@@ -50,6 +51,7 @@ app.use('/api/movies', movies);
 app.use('/api/users', users);
 app.use('/', home);
 app.use('/api/auth', auth);
+app.use(error);
 
 // Configuration
 // console.log('Application Name:' + config.get('name'));

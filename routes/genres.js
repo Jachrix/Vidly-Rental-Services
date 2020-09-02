@@ -6,12 +6,12 @@ const mongoose = require('mongoose');
 const express = require('express');
 const routerr = express.Router();
 
-routerr.get('/', async(req, res) => {
+routerr.get('/', async(req, res, next) => {
     try {
         const genre = await Genre.find().sort('name');
         res.send(genre);
     } catch (ex) {
-        res.status(500).send('Something Failed....');
+        next(ex);
     }
 
 });
