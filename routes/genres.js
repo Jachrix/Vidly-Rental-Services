@@ -1,4 +1,5 @@
 const auth = require('../middleware/auth');
+const admin = require('../middleware/admin');
 //const Joi = require('joi');
 const { Genre, validate } = require('../models/genre');
 const mongoose = require('mongoose');
@@ -43,7 +44,7 @@ routerr.put('/:id', auth, async(req, res) => {
     res.send(genre);
 });
 
-routerr.delete('/:id', auth, async(req, res) => {
+routerr.delete('/:id', [auth, admin], async(req, res) => {
     // look up the course
     const genre = await Genre.findByIdAndRemove(req.params.id);
     //const genre = genres.find(c => c.id === parseInt(req.params.id));
