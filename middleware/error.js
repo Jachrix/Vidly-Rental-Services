@@ -1,4 +1,4 @@
-module.exports = function(err, req, resp, next) {
+module.exports = function(err, req, res, next) {
     // Log exceptions here...
-    res.status(500).send('Something Failed....');
+    res.status(500).send('Again, Something Failed....');
 }

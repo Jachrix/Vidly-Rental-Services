@@ -1,3 +1,4 @@
+require('express-async-errors');
 const error = require('./middleware/error');
 const config = require('config');
 const Joi = require('joi');
@@ -51,7 +52,12 @@ app.use('/api/movies', movies);
 app.use('/api/users', users);
 app.use('/', home);
 app.use('/api/auth', auth);
+
 app.use(error);
+
+// app.use(function(err, req, res, next) {
+//     res.status(500).send('Something really went wrong ..!!!!');
+// });
 
 // Configuration
 // console.log('Application Name:' + config.get('name'));

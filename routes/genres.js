@@ -1,4 +1,4 @@
-const asyncMiddleware = require('./middleware/async');
+const asyncMiddleware = require('../middleware/async');
 const auth = require('../middleware/auth');
 const admin = require('../middleware/admin');
 //const Joi = require('joi');
@@ -7,10 +7,25 @@ const mongoose = require('mongoose');
 const express = require('express');
 const routerr = express.Router();
 
-routerr.get('/', asyncMiddleware(async(req, res) => {
+routerr.get('/', async(req, res) => {
     const genre = await Genre.find().sort('name');
     res.send(genre);
-}));
+});
+
+// routerr.get('/', asyncMiddleware(async(req, res) => {
+//     const genre = await Genre.find().sort('name');
+//     res.send(genrre);
+// }));
+
+// routerr.get('/', async(req, res, next) => {
+//     try {
+//         const genre = await Genre.find().sort('name');
+//         res.send(genrre);
+//     } catch (ex) {
+//         //res.status(500).send('Something wrong ....');
+//         next(ex);
+//     }
+// });
 
 routerr.get('/:id', asyncMiddleware(async(req, res) => {
     const genre = await Genre.findById(req.params.id);
