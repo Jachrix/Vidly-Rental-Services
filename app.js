@@ -4,7 +4,6 @@ require('winston-mongodb');
 const config = require('config');
 const Joi = require('joi');
 Joi.ObjectId = require('joi-objectid')(Joi);
-const mongoose = require('mongoose');
 const startUpDebugger = require('debug')('app:startup');
 const dataBaseDebugger = require('debug')('app:dataB');
 //const config = require('config');
@@ -17,6 +16,7 @@ const { response } = require('express');
 const app = express();
 
 require('./startup/routes')(app);
+require('./startup/db')(app);
 
 // process.on('uncaughtException', (ex) => {
 //     console.log('WE GOT AN UNCAUGHT EXCEPTION...');
@@ -47,9 +47,7 @@ if (!config.get('jwtPrivateKey')) {
     process.exit(1);
 }
 
-mongoose.connect('mongodb://localhost/vidly')
-    .then(() => console.log('DB connections established.....'))
-    .catch(err => console.log('Error: ', err.message));
+
 
 app.set('view engine', 'pug');
 //app.set('views', './views'); // optional
