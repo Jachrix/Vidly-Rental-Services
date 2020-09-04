@@ -1,2 +1,10 @@
 {"message":"Something failed during startup.....","stack":"Error: Something failed during startup.....\n    at Object.<anonymous> (C:\\Users\\OB1KENOBI\\vidly\\app.js:36:7)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Function.Module.runMain (module.js:694:10)\n    at startup (bootstrap_node.js:204:16)\n    at bootstrap_node.js:625:3","level":"error","timestamp":"2020-09-03T12:25:13.539Z"}
 {"message":"Something failed completely....","stack":"Error: Something failed completely....\n    at Object.<anonymous> (C:\\Users\\OB1KENOBI\\vidly\\app.js:41:26)\n    at Module._compile (module.js:653:30)\n    at Object.Module._extensions..js (module.js:664:10)\n    at Module.load (module.js:566:32)\n    at tryModuleLoad (module.js:506:12)\n    at Function.Module._load (module.js:498:3)\n    at Function.Module.runMain (module.js:694:10)\n    at startup (bootstrap_node.js:204:16)\n    at bootstrap_node.js:625:3","level":"error","timestamp":"2020-09-03T12:48:44.757Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:47:27.958Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:47:33.196Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:54:13.329Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:55:17.632Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:57:40.332Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:59:20.134Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:59:30.719Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T09:59:51.763Z"}
