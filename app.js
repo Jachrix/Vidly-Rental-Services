@@ -1,7 +1,6 @@
 require('express-async-errors');
 const winston = require('winston');
 require('winston-mongodb');
-const error = require('./middleware/error');
 const config = require('config');
 const Joi = require('joi');
 Joi.ObjectId = require('joi-objectid')(Joi);
@@ -10,19 +9,14 @@ const startUpDebugger = require('debug')('app:startup');
 const dataBaseDebugger = require('debug')('app:dataB');
 //const config = require('config');
 const morgan = require('morgan');
-const helmet = require('helmet');
 const logger = require('./middleware/logger');
-const genres = require('./routes/genres');
-const customers = require('./routes/customers');
-const rentals = require('./routes/rentals');
-const movies = require('./routes/movies');
-const users = require('./routes/users');
-const home = require('./routes/home');
-const auth = require('./routes/auth');
+
 const express = require('express');
 const { response } = require('express');
 
 const app = express();
+
+require('./startup/routes')(app);
 
 // process.on('uncaughtException', (ex) => {
 //     console.log('WE GOT AN UNCAUGHT EXCEPTION...');
@@ -45,8 +39,8 @@ winston.add(winston.transports.File, { filename: 'logfile.log' });
 winston.add(winston.transports.MongoDB, { db: 'mongodb://localhost/vidly' });
 
 //throw new Error('Something failed during startup.....');
-const P = Promise.reject(new Error('Something failed completely....'));
-P.then(() => console.log('Done'));
+// const P = Promise.reject(new Error('Something failed completely....'));
+// P.then(() => console.log('Done'));
 
 if (!config.get('jwtPrivateKey')) {
     console.error('FATAL ERROR: jwtPrivateKey is not defined....');
@@ -62,28 +56,6 @@ app.set('view engine', 'pug');
 
 // console.log(`NODE_ENV is : ${process.env.NODE_ENV}`);
 // console.log(app.get('env'));
-
-app.use(express.json());
-
-app.use(express.urlencoded({ extended: true }));
-
-app.use(express.static('public'));
-
-app.use(helmet());
-
-app.use('/api/genres', genres); // remove other route handler in genres with same path
-app.use('/api/customers', customers);
-app.use('/api/rentals', rentals);
-app.use('/api/movies', movies);
-app.use('/api/users', users);
-app.use('/', home);
-app.use('/api/auth', auth);
-
-app.use(error);
-
-// app.use(function(err, req, res, next) {
-//     res.status(500).send('Something really went wrong ..!!!!');
-// });
 
 // Configuration
 // console.log('Application Name:' + config.get('name'));
