@@ -26,3 +26,7 @@
 {"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:16:26.204Z"}
 {"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:17:06.502Z"}
 {"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:19:15.559Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-04T10:19:33.532Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:19:33.613Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-04T10:25:13.789Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:25:13.892Z"}
