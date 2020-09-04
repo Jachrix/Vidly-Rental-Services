@@ -1,6 +1,4 @@
-const config = require('config');
-const Joi = require('joi');
-Joi.ObjectId = require('joi-objectid')(Joi);
+const winston = require('winston');
 const startUpDebugger = require('debug')('app:startup');
 const dataBaseDebugger = require('debug')('app:dataB');
 //const config = require('config');
@@ -15,22 +13,15 @@ const app = express();
 require('./startup/logging')();
 require('./startup/routes')(app);
 require('./startup/db')();
+require('./startup/config')();
+require('./startup/validation')();
 
-if (!config.get('jwtPrivateKey')) {
-    console.error('FATAL ERROR: jwtPrivateKey is not defined....');
-    process.exit(1);
-}
 
 app.set('view engine', 'pug');
 //app.set('views', './views'); // optional
 
 // console.log(`NODE_ENV is : ${process.env.NODE_ENV}`);
 // console.log(app.get('env'));
-
-// Configuration
-// console.log('Application Name:' + config.get('name'));
-// console.log('Mail Server:' + config.get('mail.host'));
-// console.log('Mail Password:' + config.get('mail.password'));
 
 
 //Environment
@@ -74,7 +65,7 @@ app.set('view engine', 'pug');
 // Environment - Port
 const port = process.env.port || 3000;
 
-app.listen(port, () => console.log(`Listening on port ...... ${port}`));
+app.listen(port, () => winston.info(`Listening on port ...... ${port}`));
 
 
 // git init
