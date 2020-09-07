@@ -30,3 +30,9 @@
 {"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:19:33.613Z"}
 {"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-04T10:25:13.789Z"}
 {"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:25:13.892Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-04T10:27:40.125Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T10:27:40.233Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-04T23:40:24.427Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T23:40:24.705Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-04T23:40:59.987Z"}
+{"level":"info","message":"DB connections established....!!!","timestamp":"2020-09-04T23:41:00.119Z"}
