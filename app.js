@@ -65,7 +65,9 @@ app.set('view engine', 'pug');
 // Environment - Port
 const port = process.env.port || 3000;
 
-app.listen(port, () => winston.info(`Listening on port ...... ${port}`));
+const server = app.listen(port, () => winston.info(`Listening on port ...... ${port}`));
+
+module.exports = server;
 
 
 // git init
