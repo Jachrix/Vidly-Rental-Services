@@ -93,3 +93,19 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T05:50:15.627Z"}
 {"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T05:52:05.413Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T05:52:05.548Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T05:52:51.078Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T05:52:51.154Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T08:36:46.743Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T08:36:47.440Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T08:40:15.258Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T08:40:15.532Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T08:51:42.121Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T08:51:42.621Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T08:55:06.654Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T08:55:07.303Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T08:57:25.531Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T08:57:26.365Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:01:18.772Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:01:19.861Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:02:56.003Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:02:56.422Z"}
