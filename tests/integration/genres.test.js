@@ -1,5 +1,7 @@
 const request = require('supertest');
 const { Genre } = require('../../models/genre');
+const { User } = require('../../models/user');
+const mongoose = require('mongoose');
 
 let server;
 
@@ -46,6 +48,25 @@ describe('/api/genres', () => {
         it('should return a 401 if the client is not logged in', async() => {
             const res = await request(server).post('/api/genres').send({ name: 'genreNew' });
             expect(res.status).toBe(401);
+        });
+
+        it('should return a 404 if the genre is less than 3 characters', async() => {
+            const token = new User().generateAuthKey();
+            const res = await request(server)
+                .post('/api/genres')
+                .set('x-auth-token', token)
+                .send({ name: 'gent' });
+            expect(res.status).toBe(404);
+        });
+
+        it('should return a 404 if the genre is more than 50 characters', async() => {
+            const token = new User().generateAuthKey();
+            const name = new Array(52).join('a');
+            const res = await request(server)
+                .post('/api/genres')
+                .set('x-auth-token', token)
+                .send({ name: name });
+            expect(res.status).toBe(404);
         });
     });
 
