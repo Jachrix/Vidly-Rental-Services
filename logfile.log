@@ -109,3 +109,13 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:01:19.861Z"}
 {"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:02:56.003Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:02:56.422Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:06:26.415Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:06:26.591Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:12:03.393Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:12:04.189Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:14:46.230Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:14:46.289Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-11T09:14:46.594Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-11T09:17:44.103Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-11T09:17:44.275Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-11T09:17:44.776Z"}

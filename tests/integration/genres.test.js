@@ -33,6 +33,14 @@ describe('/api/genres', () => {
             const res = await request(server).get('/api/genres/' + id);
             expect(res.status).toBe(200);
             expect(res.body).toHaveProperty('name', genre.name);
+        });
+
+        it('should return a 404 if an invalid ID is passed', async() => {
+
+            const res = await request(server).get('/api/genres/1');
+            expect(res.status).toBe(404);
         })
     });
+
+
 });
