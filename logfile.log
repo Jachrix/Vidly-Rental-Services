@@ -403,3 +403,87 @@
 {"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:04:14.892Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:04:14.927Z"}
 {"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:04:15.002Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:04:17.047Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:04:17.097Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:19:29.805Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:19:29.870Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:19:31.179Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:19:31.217Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:19:32.450Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:19:32.474Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:19:32.544Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:19:58.798Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:19:59.375Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:20:00.744Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:20:00.765Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:20:00.823Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:20:02.097Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:20:02.134Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:24:36.440Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:24:36.509Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:24:37.848Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:24:37.871Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:24:37.946Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:24:39.239Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:24:39.287Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:25:06.225Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:25:06.287Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:25:07.930Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:25:07.953Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:25:08.004Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:25:10.595Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:25:10.638Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:26:11.857Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:26:11.919Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:26:13.571Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:26:13.607Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:26:15.017Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:26:15.043Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:26:15.129Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:30:33.951Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:30:34.020Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:30:35.430Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:30:35.474Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:30:36.803Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:30:36.836Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:30:36.909Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:31:22.050Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:31:22.146Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:31:23.880Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:31:23.904Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:31:23.978Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:31:25.325Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:31:25.366Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:32:24.401Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:32:24.471Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:32:25.744Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:32:25.767Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:32:25.841Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:32:27.128Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:32:27.166Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:33:21.340Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:33:21.404Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:33:22.735Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:33:22.758Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:33:22.845Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:33:24.398Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:33:24.437Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:36:46.613Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:36:46.682Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:36:48.028Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:36:48.062Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:36:50.071Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:36:50.098Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:36:50.166Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:40:09.967Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:40:10.042Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:40:11.357Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:40:11.382Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:40:11.454Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:40:12.714Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:40:12.747Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:41:20.925Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:41:20.989Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-13T05:41:22.293Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-13T05:41:22.317Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-13T05:41:22.386Z"}
