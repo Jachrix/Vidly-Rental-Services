@@ -2,9 +2,13 @@
     "name": "vidly",
     "version": "1.0.0",
     "description": "",
-    "main": "index.js",
+    "main": "app.js",
     "scripts": {
-        "test": "jest --watchAll --verbose --coverage"
+        "test": "jest --watchAll --verbose --coverage",
+        "start": "node app.js"
+    },
+    "engines": {
+        "node": "8.12.0"
     },
     "keywords": [],
     "author": "",
