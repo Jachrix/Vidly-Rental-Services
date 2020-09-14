@@ -1,5 +1,4 @@
 const Joi = require('joi');
-const moment = require('moment');
 const auth = require('../middleware/auth');
 const validate = require('../middleware/validate');
 const { Rental } = require('../models/rental');
@@ -17,8 +16,7 @@ router.post('/', [auth, validate(validateReturn)], async(req, res) => {
 
     if (rental.dateReturned) return res.status(400).send(`Already returned..`);
 
-    rental.dateReturned = new Date(); // set to 1 to pass generic test
-    rental.rentalFee = moment().diff(rental.dateOut, 'days') * rental.movie.dailyRentalRate;
+    rental.return();
     await rental.save();
 
     await Movie.update({ _id: rental.movie._id }, {
