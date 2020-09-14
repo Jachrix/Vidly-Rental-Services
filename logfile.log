@@ -395,3 +395,13 @@
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-14T04:54:56.064Z"}
 {"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-14T04:54:58.276Z"}
 {"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-14T04:54:58.313Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-14T04:55:00.346Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-14T04:55:00.385Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-14T04:55:00.531Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-14T04:57:55.387Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-14T04:57:55.451Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-14T04:57:57.081Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-14T04:57:57.104Z"}
+{"message":"Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"","stack":"CastError: Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Genre\"\n    at model.Query.exec (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4368:21)\n    at model.Query.Object.<anonymous>.Query.then (C:\\Users\\OB1KENOBI\\vidly\\node_modules\\mongoose\\lib\\query.js:4460:15)\n    at process._tickCallback (internal/process/next_tick.js:189:7)","stringValue":"\"1\"","kind":"ObjectId","value":"1","path":"_id","reason":{},"level":"error","timestamp":"2020-09-14T04:57:57.164Z"}
+{"level":"info","message":"Listening on port ...... 3000","timestamp":"2020-09-14T04:57:59.925Z"}
+{"level":"info","message":"Connected to mongodb://localhost/vidly_tests","timestamp":"2020-09-14T04:57:59.979Z"}

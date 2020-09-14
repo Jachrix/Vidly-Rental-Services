@@ -23,7 +23,7 @@ router.post('/', [auth, validate(validateReturn)], async(req, res) => {
         $inc: { numberInStock: 1 }
     });
 
-    return res.status(200).send(rental);
+    return res.send(rental); // Un-necessary  res.status(200)
 
     //res.status(401).send('Unauthorized');
 
