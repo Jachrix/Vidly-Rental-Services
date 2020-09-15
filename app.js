@@ -2,11 +2,11 @@ const winston = require('winston');
 const startUpDebugger = require('debug')('app:startup');
 const dataBaseDebugger = require('debug')('app:dataB');
 //const config = require('config');
-const morgan = require('morgan');
-const logger = require('./middleware/logger');
+// const morgan = require('morgan');
+// const logger = require('./middleware/logger');
 
 const express = require('express');
-const { response } = require('express');
+// const { response } = require('express');
 
 const app = express();
 
